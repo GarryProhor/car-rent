@@ -1,22 +1,22 @@
 export const navLink = [
     {
        path: '/home',
-       display: 'Home'
+       display: 'Главная'
     },
     {
         path: '/about',
-        display: 'About'
+        display: 'О нас'
     },
     {
         path: '/cars',
-        display: 'Cars'
+        display: 'Автомобили'
     },
     {
         path: '/blogs',
-        display: 'Blog'
+        display: 'Блог'
     },
     {
         path: '/contact',
-        display: 'Contact'
+        display: 'Контакты'
     },
 ]
