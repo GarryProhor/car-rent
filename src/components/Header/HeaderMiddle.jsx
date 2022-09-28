@@ -37,7 +37,7 @@ const HeaderMiddle = () => {
                         </div>
                     </Col>
 
-                    <Col lg='2' md='3' sm='0' className='text-end'>
+                    <Col lg='2' md='3' sm='0' className='d-flex align-items-center justify-content-end'>
                         <button className='header__btn btn'>
                             <Link to='/contact'>
                                 <i className="ri-phone-line"></i>Закажите звонок
