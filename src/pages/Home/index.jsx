@@ -3,6 +3,7 @@ import HeroSlider from "../../components/UI/HeroSlider/HeroSlider";
 import Helmet from "../../components/Helmet";
 import {Col, Container, Row} from "reactstrap";
 import FindCarForm from "../../components/UI/FIndCarForm";
+import AboutSection from "../../components/UI/AboutSection";
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
                     </Container>
                 </div>
             </section>
+            <AboutSection />
         </Helmet>
     );
 };
