@@ -4,6 +4,7 @@ import Helmet from "../../components/Helmet";
 import {Col, Container, Row} from "reactstrap";
 import FindCarForm from "../../components/UI/FIndCarForm";
 import AboutSection from "../../components/UI/AboutSection";
+import ServicesList from "../../components/UI/ServicesList";
 
 const Home = () => {
     return (
@@ -27,6 +28,18 @@ const Home = () => {
                 </div>
             </section>
             <AboutSection />
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg='12' className='mb-5 text-center'>
+                            <h6 className='section__subtitle'>Услуги</h6>
+                            <h2 className='section__title'>Популярные сервисы</h2>
+                        </Col>
+                        <ServicesList />
+                    </Row>
+                </Container>
+            </section>
+
         </Helmet>
     );
 };
