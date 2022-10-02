@@ -3,8 +3,10 @@ import {navLink} from "../../assets/data/navLink";
 import {NavLink} from "react-router-dom";
 
 const Navigation = () => {
+    const menuRef = React.useRef(null);
+    const toggleMenu = () => menuRef.current.classList.toggle('menu__active');
     return (
-        <div className='navigation'>
+        <div className='navigation' ref={menuRef} onClick={toggleMenu}>
             <div className='menu'>
                 {
                     navLink.map(({path, display}) =>
