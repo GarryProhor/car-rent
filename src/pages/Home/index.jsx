@@ -7,6 +7,7 @@ import AboutSection from "../../components/UI/AboutSection";
 import ServicesList from "../../components/UI/ServicesList";
 import CarList from "../../components/UI/CarList";
 import BecomeDriverSection from "../../components/UI/BecomeDriverSection";
+import Testimonial from "../../components/UI/Testimonial";
 
 const Home = () => {
     return (
@@ -44,6 +45,18 @@ const Home = () => {
 
             <CarList />
             <BecomeDriverSection />
+
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg='12' className='mb-4 text-center'>
+                            <h6 className='section__subtitle'>Наши клиенты</h6>
+                            <h2 className='section__title'>Отзывы</h2>
+                        </Col>
+                        <Testimonial />
+                    </Row>
+                </Container>
+            </section>
         </Helmet>
     );
 };
