@@ -8,6 +8,7 @@ import ServicesList from "../../components/UI/ServicesList";
 import CarList from "../../components/UI/CarList";
 import BecomeDriverSection from "../../components/UI/BecomeDriverSection";
 import Testimonial from "../../components/UI/Testimonial";
+import BlogList from "../../components/UI/BlogList";
 
 const Home = () => {
     return (
@@ -54,6 +55,17 @@ const Home = () => {
                             <h2 className='section__title'>Отзывы</h2>
                         </Col>
                         <Testimonial />
+                    </Row>
+                </Container>
+            </section>
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg='12' className='mb-5 text-center'>
+                            <h6 className='section__subtitle'>Изучите наши блоги</h6>
+                            <h2 className='section__title'>Последние блоги</h2>
+                        </Col>
+                        <BlogList />
                     </Row>
                 </Container>
             </section>
