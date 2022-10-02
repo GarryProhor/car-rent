@@ -8,7 +8,7 @@ const blogData = [
     id: 1,
     title: "Лучший способ водить машину",
     author: "Василий",
-    date: "12 Декабря, 2020",
+    date: "12 Дек, 2020",
     time: "9:31 pm",
     imgUrl: img01,
     description:
@@ -21,7 +21,7 @@ const blogData = [
     id: 2,
     title: "Если ваш аккумулятор разрядился",
     author: "Анатолий",
-    date: "19 Декабря, 2021",
+    date: "19 Дек, 2021",
     time: "1:15 аm",
     imgUrl: img02,
     description:
@@ -34,7 +34,7 @@ const blogData = [
     id: 3,
     title: "Лучший способ подарить поездку",
     author: "Роман",
-    date: "10 Июня, 2020",
+    date: "10 Июн, 2020",
     time: "7:48 pm",
     imgUrl: img03,
     description:
