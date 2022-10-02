@@ -5,6 +5,7 @@ import {Col, Container, Row} from "reactstrap";
 import FindCarForm from "../../components/UI/FIndCarForm";
 import AboutSection from "../../components/UI/AboutSection";
 import ServicesList from "../../components/UI/ServicesList";
+import CarList from "../../components/UI/CarList";
 
 const Home = () => {
     return (
@@ -39,6 +40,8 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
+
+            <CarList />
 
         </Helmet>
     );
