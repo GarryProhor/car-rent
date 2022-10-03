@@ -1,4 +1,5 @@
 import React from 'react';
+import './About.css';
 import Helmet from "../../components/Helmet";
 import CommonSection from "../../components/UI/CommonSection";
 import AboutSection from "../../components/UI/AboutSection";
@@ -10,7 +11,7 @@ const About = () => {
     return (
         <Helmet title='О нас'>
             <CommonSection title='О нас'/>
-            <AboutSection />
+            <AboutSection aboutClass='aboutPage'/>
             <section className='about__page-section'>
                 <Container>
                     <Row>
