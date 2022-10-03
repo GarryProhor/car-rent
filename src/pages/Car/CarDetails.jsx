@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Helmet from "../../components/Helmet";
 import {useParams} from "react-router-dom";
 import carData from "../../assets/data/carData";
@@ -9,6 +9,9 @@ import BookingForm from "../../components/UI/BookingForm";
 const CarDetails = () => {
     const {slug} = useParams();
     const singleCarItem = carData.find(({carName}) => carName === slug);
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    }, [singleCarItem]);
     return (
         <Helmet title={singleCarItem.carName}>
             <section>
